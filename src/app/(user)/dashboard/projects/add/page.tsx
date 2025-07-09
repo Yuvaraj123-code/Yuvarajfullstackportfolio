@@ -1,20 +1,10 @@
 import BackButton from "@/components/BackButton/BackButton";
 import ProjectAdd from "@/components/ProjectAdd/ProjectAdd";
-import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 import { redirect } from "next/navigation";
 const AddPage = async () => {
-  const { getUser, isAuthenticated, getPermission } = getKindeServerSession();
-  const user = await getUser();
-  const isLoggedIn = await isAuthenticated();
-  const permission = await getPermission("create:post");
-  if (!isLoggedIn) {
-    redirect("/api/auth/login");
-  }
 
-  if (!permission?.isGranted) {
-    redirect("/");
-  }
+
 
   return (
     <div className="relative overflow-hidden bg-slate-100 dark:bg-[#020617]  ">

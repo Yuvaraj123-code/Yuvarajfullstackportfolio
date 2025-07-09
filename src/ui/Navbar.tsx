@@ -5,11 +5,10 @@ import { ChevronRight, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import DashboardMenu from "./DashboardMenu/DashboardMenu";
+// import DashboardMenu from "./DashboardMenu/DashboardMenu";
 import logo from "@/app/favicon.ico"
 import Image from "next/image";
 
-import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 
 const menuItems = [
   {
@@ -45,7 +44,6 @@ function Navbar() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const { isAuthenticated } = useKindeBrowserClient();
   const { scrollY } = useScroll();
 
   useMotionValueEvent(scrollY, "change", (latest) => {
@@ -103,13 +101,13 @@ function Navbar() {
                   </li>
                 );
               })}
-              {isAuthenticated && (
+              
                 <li
                   className={`inline-flex items-center text-lg font-bold px-2  dark:hover:text-slate-500 hover:text-slate-400 transition-all ease-in-out duration-150 `}
                 >
-                  <DashboardMenu />
+                  {/* <DashboardMenu /> */}
                 </li>
-              )}
+              
             </ul>
           </div>
 
@@ -120,7 +118,7 @@ function Navbar() {
           <div className={`dropdown `}>
             <div className="flex justify-center items-center">
               <div className=" lg:hidden">
-                {isAuthenticated && <DashboardMenu />}
+                {/* <DashboardMenu /> */}
               </div>
               <div
                 tabIndex={0}

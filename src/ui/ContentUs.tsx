@@ -1,5 +1,5 @@
 import BoxReveal from "@/components/ui/box-reveal";
-import Raju from "../../public/about02.jpeg";
+import Raju from "./../about02.jpeg";
 import ShinyButton from "@/components/ui/shiny-button";
 import Image from "next/image";
 import Link from "next/link";
