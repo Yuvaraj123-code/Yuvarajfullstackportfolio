@@ -22,7 +22,7 @@ const space_Grotesk = Source_Sans_3({
 export const metadata: Metadata = {
   title: {
     default: metaData.title,
-    template: `%s - MDR`,
+    template: `%s - Yuvaraj`,
   },
   description: metaData.description,
   keywords: metaData.keywords,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
     siteName: metaData.title,
     type: "website",
-    url: "https://mdranju.xyz",
+    url: "#",
   },
   twitter: {
     title: metaData.title,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@yuvaraj",
   },
 };
 

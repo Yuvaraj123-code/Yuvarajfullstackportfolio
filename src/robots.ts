@@ -7,6 +7,6 @@ export function robots(): MetadataRoute.Robots {
       allow: "*",
       disallow: ["/api/*"],
     },
-    sitemap: "https://mdranju.xyz/sitemap.xml",
+    sitemap: "#",
   };
 }

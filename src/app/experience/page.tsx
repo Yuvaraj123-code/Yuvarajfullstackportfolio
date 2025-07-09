@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
     siteName: "Experience Page",
     type: "website",
-    url: "https://mdranju.xyz/experience",
+    url: "#",
   },
   twitter: {
     title: "Experience Page",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "#",
   },
 };
 

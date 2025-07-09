@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     template: `%s - ${"About"}`,
   },
   description:
-    "Hi, I'm Md. Ranju, a passionate Web Application Developer from Rajshahi, Bangladesh. I began my journey into web development in 2021, the same year I completed my Higher Secondary Certificate (HSC). Currently, I am pursuing further studies at Degree College while continuing to enhance my skills in both front-end and back-end technologies.Over the past few years, I have honed my expertise in Web Application Development, enabling me to build dynamic, responsive websites and applications from the ground up. My skill set spans various programming languages and frameworks, including HTML, CSS, JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am committed to delivering efficient, high-quality solutions that meet the needs of clients and users alike.",
+    "Hi, I’m B Yuvaraj — a passionate Full Stack Developer from Chennai, India, with over one year of hands-on experience crafting scalable, modern web applications. I began my journey into software development after completing my Bachelor of Science in Agriculture Engineering from PDM University, New Delhi, and have since transitioned into building dynamic, user-centric digital products. My expertise spans both front-end and back-end development, allowing me to deliver complete end-to-end solutions. I specialize in Java, TypeScript, JavaScript, and have strong command over frameworks and technologies like React.js, NestJS, Node.js, Spring Boot, and AWS. Throughout my freelance and professional projects, I have developed and deployed various applications — from comprehensive export-import management systems and e-commerce platforms to food ordering websites — optimizing UI/UX and backend performance to meet real-world business needs. I’m deeply committed to writing clean, efficient code, integrating secure authentication, and deploying scalable cloud solutions. My goal is to build digital experiences that are not only visually appealing but also robust, secure, and impactful. When I’m not coding, I enjoy exploring new technologies and continuously expanding my skill set to stay ahead in the rapidly evolving tech landscape.",
   keywords: metaData.keywords,
   openGraph: {
     title: "About Page",
     description:
-      "Hi, I'm Md. Ranju, a passionate Web Application Developer from Rajshahi, Bangladesh. I began my journey into web development in 2021, the same year I completed my Higher Secondary Certificate (HSC). Currently, I am pursuing further studies at Degree College while continuing to enhance my skills in both front-end and back-end technologies.Over the past few years, I have honed my expertise in Web Application Development, enabling me to build dynamic, responsive websites and applications from the ground up. My skill set spans various programming languages and frameworks, including HTML, CSS, JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am committed to delivering efficient, high-quality solutions that meet the needs of clients and users alike.",
+      "Hi, I’m B Yuvaraj — a passionate Full Stack Developer from Chennai, India, with over one year of hands-on experience crafting scalable, modern web applications. I began my journey into software development after completing my Bachelor of Science in Agriculture Engineering from PDM University, New Delhi, and have since transitioned into building dynamic, user-centric digital products. My expertise spans both front-end and back-end development, allowing me to deliver complete end-to-end solutions. I specialize in Java, TypeScript, JavaScript, and have strong command over frameworks and technologies like React.js, NestJS, Node.js, Spring Boot, and AWS. Throughout my freelance and professional projects, I have developed and deployed various applications — from comprehensive export-import management systems and e-commerce platforms to food ordering websites — optimizing UI/UX and backend performance to meet real-world business needs. I’m deeply committed to writing clean, efficient code, integrating secure authentication, and deploying scalable cloud solutions. My goal is to build digital experiences that are not only visually appealing but also robust, secure, and impactful. When I’m not coding, I enjoy exploring new technologies and continuously expanding my skill set to stay ahead in the rapidly evolving tech landscape.",
     images: [
       {
         url: metaData.imageOfRanju,
@@ -24,12 +24,12 @@ export const metadata: Metadata = {
 
     siteName: "About Page",
     type: "website",
-    url: "https://mdranju.xyz/about",
+    url: "#",
   },
   twitter: {
     title: "About Page",
     description:
-      "Hi, I'm Md. Ranju, a passionate Web Application Developer from Rajshahi, Bangladesh. I began my journey into web development in 2021, the same year I completed my Higher Secondary Certificate (HSC). Currently, I am pursuing further studies at Degree College while continuing to enhance my skills in both front-end and back-end technologies.Over the past few years, I have honed my expertise in Web Application Development, enabling me to build dynamic, responsive websites and applications from the ground up. My skill set spans various programming languages and frameworks, including HTML, CSS, JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am committed to delivering efficient, high-quality solutions that meet the needs of clients and users alike.",
+      "Hi, I’m B Yuvaraj — a passionate Full Stack Developer from Chennai, India, with over one year of hands-on experience crafting scalable, modern web applications. I began my journey into software development after completing my Bachelor of Science in Agriculture Engineering from PDM University, New Delhi, and have since transitioned into building dynamic, user-centric digital products. My expertise spans both front-end and back-end development, allowing me to deliver complete end-to-end solutions. I specialize in Java, TypeScript, JavaScript, and have strong command over frameworks and technologies like React.js, NestJS, Node.js, Spring Boot, and AWS. Throughout my freelance and professional projects, I have developed and deployed various applications — from comprehensive export-import management systems and e-commerce platforms to food ordering websites — optimizing UI/UX and backend performance to meet real-world business needs. I’m deeply committed to writing clean, efficient code, integrating secure authentication, and deploying scalable cloud solutions. My goal is to build digital experiences that are not only visually appealing but also robust, secure, and impactful. When I’m not coding, I enjoy exploring new technologies and continuously expanding my skill set to stay ahead in the rapidly evolving tech landscape.",
     images: [
       {
         url: metaData.imageOfRanju,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
       },
     ],
     card: "summary_large_image",
-    site: "@muhammad_ranju",
+    site: "@Yuvaraj",
   },
 };
 

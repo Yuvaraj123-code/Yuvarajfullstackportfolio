@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaNode,
+  FaInstagram,
   FaReact,
   FaXTwitter,
 } from "react-icons/fa6";
@@ -55,11 +56,11 @@ function HeroSection() {
             <h1 className="mt-3 max-w-4xl text-3xl  font-black tracking-tight md:text-4xl lg:text-6xl flex">
               <span className="mr-3">I'm</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-                Muhammad Ranju
+                Yuvaraj Reddy
               </span>
             </h1>
             <h2 className="mt-6 font-bold lg:text-2xl md:text-xl sm:text-lg flex flex-row items-center">
-              <span className="">I am a Web App Developer in</span>
+              <span className="">I am a Full Stack Developer specializing in</span>
               <div className="text-slate-900">
                 <FlipWords words={words} />
               </div>
@@ -82,33 +83,33 @@ function HeroSection() {
               React.js and other related technologies. */}
             <div className="flex gap-5 mt-5 border-white border-collapse rounded">
               <a
-                href="https://github.com/muhammadranju"
+                href="https://github.com/Yuvaraj123-code"
                 aria-label="GitHub Icon"
                 target="_blank"
               >
                 <FaGithub className="h-7 w-7" />
               </a>
               <a
-                href="https://www.linkedin.com/in/muhammadranju"
+                href="https://www.linkedin.com/in/b-yuvaraj-1499a8284/"
                 target="_blank"
                 aria-label="Linkedin Icon"
               >
                 <FaLinkedin className="h-7 w-7" />
               </a>
               <a
-                href="https://twitter.com/muhammad_ranju"
-                aria-label="Twitter Icon"
+                href="https://www.instagram.com/yuvaraj_reddy__03?igsh=NmQzYzZvOTM2NjE5"
+                aria-label="Instagram Icon"
                 target="_blank"
               >
-                <FaXTwitter className="h-7 w-7" />
+                <FaInstagram className="h-7 w-7" />
               </a>
             </div>
             <div className="mt-5">
               <div className="flex mt-5 gap-x-2 border-white border-collapse rounded">
                 <a
-                  href="../../full_stack_developer_resume.pdf"
+                  href="../../full_stack_developer_Yuvaraj.pdf"
                   target="_blank"
-                  download="full_stack_developer_resume_of_mdranju.pdf"
+                  download="full_stack_developer_resume_of_yuvaraj.pdf"
                 >
                   <ShimmerButton className="shadow-2xl">
                     <span className="whitespace-pre-wrap flex items-center text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">

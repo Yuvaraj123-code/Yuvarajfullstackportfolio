@@ -124,10 +124,11 @@ function Project() {
                           <p className="text-xs font-semibold leading-tight">
                             {post?.author}
                           </p>
-                          <span className="text-xs leading-tight ">
-                            Added:{" "}
-                            {format(new Date(post?.createdAt), "dd/MM/yyyy")}
-                          </span>
+                          {post?.createdAt && (
+  <span className="text-xs leading-tight ">
+    Added: {format(new Date(post.createdAt), "dd/MM/yyyy")}
+  </span>
+)}
                         </div>
 
                         <div>

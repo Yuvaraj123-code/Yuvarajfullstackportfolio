@@ -1,5 +1,5 @@
 import BoxReveal from "@/components/ui/box-reveal";
-import Ranju from "../../public/mdranju.jpg";
+import Raju from "../../public/about02.jpeg";
 import ShinyButton from "@/components/ui/shiny-button";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +13,7 @@ export const ContentUs = () => {
       <div className="inset-y-0 top-0 right-0 z-0 w-full  rounded-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
         <svg
           className="absolute left-0 hidden h-full z-10 dark:text-slate-900 text-slate-100 transform -translate-x-1/2 lg:block"
-          viewBox="0 0 100 100"
+          viewBox="0 0 100 130"
           fill="currentColor"
           preserveAspectRatio="none slice"
         >
@@ -24,8 +24,8 @@ export const ContentUs = () => {
           height={500}
           className="object-cover z-50 overflow-hidden w-full h-56 rounded-xl shadow-lg lg:shadow-none md:h-96 lg:h-full"
           placeholder="blur"
-          src={Ranju}
-          alt="Md Ranju Images"
+          src={Raju}
+          alt="Yuvaraj Images"
         />
       </div>
 
@@ -40,21 +40,11 @@ export const ContentUs = () => {
             Hi, I'm{" "}
             <span className="text-xl font-bold md:text-2xl text-indigo-500">
               {" "}
-              Md. Ranju
+               Yuvaraj
             </span>
-            , a passionate Web Application Developer from Rajshahi, Bangladesh.
-            I began my journey into web development in 2021, the same year I
-            completed my Higher Secondary Certificate (HSC). Currently, I am
-            pursuing further studies at Degree College while continuing to
-            enhance my skills in both front-end and back-end technologies.
-            <br />
-            Over the past few years, I have honed my expertise in Web
-            Application Development, enabling me to build dynamic, responsive
-            websites and applications from the ground up. My skill set spans
-            various programming languages and frameworks, including HTML, CSS,
-            JavaScript, Node.js, React.js, Next.js, MongoDB and more. I am
-            committed to delivering efficient, high-quality solutions that meet
-            the needs of clients and users alike.
+              ,passionate Full Stack Developer from Chennai, India, with over one year of hands-on experience crafting scalable. I began my journey into software development after completing my Bachelor of Science in Agriculture Engineering from PDM University, New Delhi, and have since transitioned into building dynamic, user-centric digital products. My expertise spans both front-end and back-end development, allowing me to deliver complete end-to-end solutions.
+              
+               I specialize in Java, TypeScript, JavaScript, and have strong command over frameworks and technologies like React.js, NestJS, Node.js, Spring Boot, and AWS. 
           </p>
           <div className="flex items-center z-10">
             <Link href="/contact">

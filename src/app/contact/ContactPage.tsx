@@ -1,7 +1,7 @@
 "use client";
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/no-unescaped-entities */
-import { URL } from "@/api/cron/route";
+import  URL  from "@/data/data.json";
 import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 import { AnimatedSubscribeButton } from "@/components/ui/animated-subscribe-button";
 import { Button } from "@/components/ui/moving-border";
@@ -35,49 +35,36 @@ function Contact() {
     });
   };
 
-  const handleSubmit = async (event: any) => {
-    event.preventDefault();
+  const handleSubmit = (event: any) => {
+  event.preventDefault();
 
-    try {
-      const response = await fetch(`${URL}/contact`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+  if (formData.firstName === "") {
+    setError("First Name is required!");
+  } else if (formData.lastName === "") {
+    setError("Last Name is required!");
+  } else if (formData.email === "") {
+    setError("Email is required!");
+  } else if (formData.phone === "") {
+    setError("Phone number is required!");
+  } else if (formData.message === "") {
+    setError("Message is required!");
+  } else {
+    // All fields filled, show success
+    toast.success("Your message has been sent successfully!");
 
-      if (formData.firstName === "") {
-        setError("First Name is required!");
-      } else if (formData.lastName === "") {
-        setError("Last Name is required!");
-      } else if (formData.email === "") {
-        setError("Email is required!");
-      } else if (formData.phone === "") {
-        setError("Phone number is required!");
-      } else if (formData.message === "") {
-        setError("Message is required!");
-      }
+    // Reset form
+    setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
 
-      const data = await response.json();
+    setError("");
+  }
+};
 
-      if (data.success) {
-        toast.success(data.massage);
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-        setError("");
-      } else {
-        toast.error(data.message);
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   return (
     <>
@@ -126,15 +113,15 @@ function Contact() {
                   </p>
                   <div className="space-y-2 mt-3">
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      <MdEmail className="mr-2" /> Email: mdranju23@gmail.com
+                      <MdEmail className="mr-2" /> Email: byuvarajbyuvaraj17@gmail.com
                     </div>
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                       <FaPhone className="mr-2" />
-                      Number: +8801799301290
+                      Number: +91-6309376010
                     </div>
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                       <FaLocationDot className="mr-2" />
-                      Location: Rajshahi, Bangladesh
+                      Location: Chennai, India
                     </div>
                   </div>
                   <form

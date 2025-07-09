@@ -1,8 +1,8 @@
-# Md Ranju Portfolio Next.js
+# Yuvaraj Portfolio Next.js
 
 ## Overview
 
-This is a provisional README file for the `mdranju-portfolio-nextjs` project. The project is currently under development, and functionalities are not yet complete.
+This is a provisional README file for the `Yuvaraj-portfolio-nextjs` project. The project is currently under development, and functionalities are not yet complete.
 
 ## Project Structure
 
@@ -42,25 +42,6 @@ This is a provisional README file for the `mdranju-portfolio-nextjs` project. Th
 - Node.js
 - npm or yarn
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/muhammadranju/mdranju-portfolio-nextjs
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd mdranju-portfolio-nextjs
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-   or
-   ```bash
-   yarn install
-   ```
-
 ### Running the Project
 
 To start the development server, run:
@@ -84,10 +65,3 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 
 This project is licensed under the MIT License.
-
-## Contact
-
-For any inquiries, please contact mdranju23@gmail.com.
-
-![Screenshot1](./public/home.jpeg)
-![Screenshot2](./public/home2.jpeg)
